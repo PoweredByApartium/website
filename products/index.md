@@ -1,5 +1,6 @@
 ---
 layout: page
+footer: true
 ---
 <script setup>
 import {
@@ -18,7 +19,7 @@ const products = [
     ]
   },
   {
-    avatar: 'https://raw.githubusercontent.com/PoweredByApartium/cocoa-beans/main/Writerside/cfg/beans.png',
+    avatar: 'https://raw.githubusercontent.com/PoweredByApartium/assets/main/Nuclear_Explosives.jpg',
     name: 'Core',
     title: 'Shhhhhh this is a top secret',
     links: [

@@ -3,17 +3,17 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Apartium Development",
-  description: "TODO Vogion continue here :)",
+  description: "Bringing scalable Java game development to the next level",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Products', link: '/products' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Products',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }

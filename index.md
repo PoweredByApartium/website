@@ -4,25 +4,28 @@ layout: home
 
 hero:
   name: "Apartium Development"
-  text: "TODO Vogion continue here :)"
-  tagline: My great project tagline
+  text: ""
+  tagline: Bringing scalable Java game development to the next level
   image:
     src: https://cdn.discordapp.com/icons/576785784120803356/3336ed9c69c9dd3a726a6ffeaa702607.png?size=2048
     alt: Apartium Development
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Our products
+      link: /products
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: blog
+      link: /blog
 
 features:
-  - title: Feature A
+  - icon: 🛠️    
+    title: Feature A
     details: TODO VOIGON A
-  - title: Feature B
+  - icon: 📋
+    title: Feature B
     details: TODO VOIGON B
-  - title: Feature C
+  - icon: 🚩
+    title: Feature C
     details: TODO VOIGON C
 ---
 <script setup>

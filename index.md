@@ -19,14 +19,14 @@ hero:
 
 features:
   - icon: 🛠️    
-    title: Feature A
-    details: TODO VOIGON A
+    title: Highly skilled team members
+    details: Our development team is highly trained and motivated, with each time member having their own area of expertise. 
   - icon: 📋
-    title: Feature B
-    details: TODO VOIGON B
+    title: Enhanced workflow
+    details: We employ a streamlined workflow that includes code testing, ci/cd pipelines, documentation and more. We are always looking for ways to improve our workflow with the latest word in the industry.
   - icon: 🚩
-    title: Feature C
-    details: TODO VOIGON C
+    title: Security first
+    details: Security is not even a task for us, its part of every line of code we write. Where relevant our products boast extensive security measures to ensure your players are safe.
 ---
 <script setup>
 import {
@@ -36,26 +36,6 @@ import {
 } from 'vitepress/theme';
 
 const member = [
-  {
-    avatar: 'https://www.github.com/IdanKoblik.png',
-    name: 'Idan Koblik',
-    title: 'Contributor',
-    links: [
-      { icon: 'github', link: 'https://github.com/IdanKoblik' },
-      { icon: 'discord', link: 'https://discord.com/users/429212281914785793' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/idan-k/' }
-    ]
-  },
-  {
-    avatar: 'https://www.github.com/ikfir.png',
-    name: 'Kfir Botnik',
-    title: 'Senior Contributor',
-    links: [
-      { icon: 'github', link: 'https://github.com/ikfir' },
-      { icon: 'discord', link: 'https://discord.com/users/248460319117017088' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/kfir-botnik/' }
-    ]
-  },
   {
     avatar: 'https://www.github.com/liorsl.png',
     name: 'Lior Slakman',
@@ -83,6 +63,26 @@ const member = [
     links: [
       { icon: 'github', link: 'https://github.com/justnotro' },
       { icon: 'discord', link: 'https://discord.com/users/333628700321120257' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/IdanKoblik.png',
+    name: 'Idan Koblik',
+    title: 'Contributor',
+    links: [
+      { icon: 'github', link: 'https://github.com/IdanKoblik' },
+      { icon: 'discord', link: 'https://discord.com/users/429212281914785793' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/idan-k/' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/ikfir.png',
+    name: 'Kfir Botnik',
+    title: 'Senior Contributor',
+    links: [
+      { icon: 'github', link: 'https://github.com/ikfir' },
+      { icon: 'discord', link: 'https://discord.com/users/248460319117017088' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/kfir-botnik/' }
     ]
   }
 ]

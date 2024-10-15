@@ -14,16 +14,6 @@ export default defineConfig({
 
     ],
 
-    sidebar: [
-      {
-        text: 'Products',
-        items: [
-          { text: 'Cocoa beans', link: '/products/cocoa-beans' },
-          { text: 'Core', link: '/products/core' }
-        ]
-      }
-    ],
-
     search: {
       provider: 'local'
     },

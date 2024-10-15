@@ -10,9 +10,10 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Products', link: '/products' },
-      { text: 'Blog', link: '/blog' }
-
+      { text: 'Blog', link: '/blog' },
     ],
+
+    notFound: '/404',
 
     search: {
       provider: 'local'

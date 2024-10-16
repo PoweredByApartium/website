@@ -44,7 +44,7 @@ const products = [
 ]
 </script>
 
-<VPTeamPage>
+<VPTeamPage style="margin-top: -5px;">
   <VPTeamPageTitle>
     <template #title>
       Our projects

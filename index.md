@@ -7,7 +7,7 @@ hero:
   text: ""
   tagline: Bringing scalable Java game development to the next level
   image:
-    src: img/index-logo.png
+    src: /img/index-logo.png
     alt: Apartium Development
   actions:
     - theme: brand

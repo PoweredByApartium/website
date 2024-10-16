@@ -5,7 +5,11 @@ export default defineConfig({
   title: "Apartium Development",
   description: "Bringing scalable Java game development to the next level",
   lastUpdated: true,
+  head: [['link', { rel: 'icon', href: '/public/img/index-logo.png' }],],
+
   themeConfig: {
+    logo: '/public/img/index-logo.png',
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },

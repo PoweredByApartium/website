@@ -9,5 +9,7 @@ export default {
         return h(DefaultTheme.Layout, null, {
             'not-found': () => h(Custom404)
         })
+
     }
 }
+

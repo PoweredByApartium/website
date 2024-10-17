@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import sitemap from "vite-plugin-sitemap";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -31,4 +32,4 @@ export default defineConfig({
       copyright: 'Copyright © 2021-present Apartium development'
     }
   }
-})
+});

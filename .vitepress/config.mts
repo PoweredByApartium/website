@@ -1,14 +1,15 @@
 import { defineConfig } from 'vitepress'
+import sitemap from "vite-plugin-sitemap";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Apartium Development",
   description: "Bringing scalable Java game development to the next level",
   lastUpdated: true,
-  head: [['link', { rel: 'icon', href: '/public/img/index-logo.png' }],],
+  head: [['link', { rel: 'icon', href: '/img/index-logo.png' }],],
 
   themeConfig: {
-    logo: '/public/img/index-logo.png',
+    logo: '/img/index-logo.png',
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -31,4 +32,4 @@ export default defineConfig({
       copyright: 'Copyright © 2021-present Apartium development'
     }
   }
-})
+});

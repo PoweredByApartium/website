@@ -19,7 +19,7 @@ const products = [
     ]
   },
   {
-    avatar: 'https://raw.githubusercontent.com/PoweredByApartium/assets/main/Nuclear_Explosives.jpg',
+    avatar: '/img/COREIMAGE.png',
     name: 'Core',
     title: 'Our flagship framework - supercharging high scale minecraft networks development',
     links: [
@@ -44,7 +44,7 @@ const products = [
 ]
 </script>
 
-<VPTeamPage>
+<VPTeamPage style="margin-top: -5px;">
   <VPTeamPageTitle>
     <template #title>
       Our projects

@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Apartium Development"
   text: ""
-  tagline: Bringing scalable Java game development to the next level
+  tagline: Bringing scalable JVM game development to the next level
   image:
     src: /img/index-logo.png
     alt: Apartium Development

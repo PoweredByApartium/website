@@ -49,16 +49,6 @@ const member = [
         }, link: 'mailto:lior@apartium.net' }
     ]
   },
-  {
-    avatar: 'https://www.github.com/ofirtim.png',
-    name: 'Ofir Hoffman',
-    title: 'Senior Contributor',
-    links: [
-      { icon: 'github', link: 'https://github.com/ofirtim' },
-      { icon: 'discord', link: 'https://discord.com/users/201095264021250048' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/ofir-hoffman-503518221/' }
-    ]
-  },
  {
     avatar: 'https://www.github.com/ikfir.png',
     name: 'Kfir Botnik',
@@ -105,8 +95,8 @@ const member = [
         link: 'https://behance.net/mutedlyfx' 
       },
 { icon: {
-        svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36px" height="36px" viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"></path></svg>'
-        }, link: 'mailto:elay@edvin.co.il' }
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36px" height="36px" viewBox="0 0 24 24"><path fill="currentColor" d="M14 3h7v7h-2V6.41l-9.29 9.3l-1.42-1.42l9.3-9.29H14V3M5 5h6V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-6h-2v6H5V5Z"></path></svg>'
+        }, link: 'https://elays.design' }
     ]
   },
   {
